@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /* printing the alphabet */
-int main(void)
+int main()
 {
-	char c;
+	
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (char c = 'a'; c <= 'z'; c++)
 		putchar(c);
-	for (c = 'A'; c <= 'Z'; c++)
+	for (char c = 'A'; c <= 'Z'; c++)
 		putchar(c);
 		putchar('\n');
 
